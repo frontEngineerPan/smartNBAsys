@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!--这句虽然不知道什么意思但是应该也没什么用-->
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><!--这个应该都会有所描述-->
+    <title>博客</title>
+    <link href="layout.css" rel="stylesheet" type="../css/博客.css"/><!--引用CSS的通用语句-->
+
+
+</head>
+
+<body>
+            <div id="container">
+            <div id="header">
+            <IMG SRC="header_logo1.gif" WIDTH="386" HEIGHT="90" BORDER="0" ALT=""><!--div01引用logo01，高度90，无边界，该div代表header->
+             This is the Header
+            </div>
+</div><!--这里存在div嵌套的机制-->.
+<!--001-->
+            
+
+<br class="clearfloat"/><!--设置div不浮动-->
+
+        <div id="menu"><!--margin-bottom:3px设置的下边距-->
+             <div id="menu1"><!--这个div设置了导航-->
+             <ul>
+                  <li><a id="current" href="#">首页</a></li>
+                  <li><a href="#">日志</a></li><!--跳转到本页面顶部-->
+                  <li><a href="#">相册</a></li>
+                  <li><a href="#">照片</a></li>
+                  <li><a href="#">档案</a></li>
+                  <li><a href="#">好友</a></li><!—用一个列表设计了一个导航--> 
+
+             </ul><!--002header下面是导航条--> 
+             </div>
+
+        </div>
+        <br class="clearfloat"/><!--设置div不浮动-->
+
+        <div id="mainContent">
+        <div id="sidebar"><!--边栏div-->
+            <H5>This is the sidebar</H5>
+
+            <div id="sidebarmenu">
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div><!—每一个条目由一个超链接和一个空格div组成-->
+            </div>
+
+        </div>
+            
+
+<div id="content">这是一个标准的博客页面</div><br/>
+            <br/>
+            <br/>
+            <div>此例子是非常实用的一个例子，大家可能注意到了，在header、menu、mainContent容器下都加上了&lt;br class=&quot;clearfloat&quot; /&gt;这句话，当然也可以用div。</div>
+<br/>
+            <br/>
+            　　这句话是清除浮动用的，因为我们在header和menu内设计时都可能涉及到浮动，还有sidebar栏和content，本身已经浮动了，这样如果content的高度没有sidebar高时，footer也会浮动到sidebar右侧，造成整个页面错乱，采用这种方式可以有效避免错乱。<br/>
+            <br/>
+            　　另外，sidebar和content分别采用左浮动和右浮动的方式，可有效避免IE6的3像素bug。当然也可以采用自适应宽度时 margin-left:205px !important;
+            margin-left:202px;这种方法来修正3像素的问题。<br/>
+            <br/>
+            　　总之，实现的方法是多种多样的，这只是本人在学习过程中总结的一点经验，权当抛砖引玉，希望能对您有所帮助，当然您有更好的办法和布局，欢迎一块来学习，交流，让web标准在中国得到更好的发展。同时希望您继续关注标准之路(www.aa25.cn)<br/>
+            <br/>
+
+</div>
+            </div><!—为什么这里会有两个/div-->
+             <br class="clearfloat"/>
+
+                 <div id="footer">This is the footer <br/>版权所有<br/></div>
+                </div>
+</body>
+</html>
+

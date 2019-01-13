@@ -1,0 +1,88 @@
+var c = new Crawler({
+        maxConnections : 10,  // 最大链接数 10
+        retries: 5,  // 失败重连5次
+        // This will be called for each crawled page
+		//这些内容在每个页面都会调用
+        callback : function (error, res, done) { 
+            if(error){
+                console.log(error);
+            }else{
+				//默认DOM解析器
+                var $ = res.$;
+                console.log($("title").text());
+            }
+            done();
+        }
+    });
+    c.queue([{
+		//妹子图的首页
+        uri: 'http://www.meizitu.com/a/more_1.html',
+        jQuery: true,
+        callback: function (error, res, done) {
+            if(error){
+                console.log(error);
+            }else{
+				//默认jQuery解析器
+                var $ = res.$;   
+                var total_pag = 0;
+                $('#wp_page_numbers li a').each(function(index,item){
+                        if ($(item).text() == '末页') {
+                            total_pag = $(item).attr('href');
+							//返回item的href属性值，设为total_pag
+                            var regexp = /[0-9]+/g;
+							//加g每次执行会形成新的匹配，这里匹配的是包含多个0到9的字符串
+                            total_pag = total_pag.match(regexp)[0]; // 从末页的url中匹配出总页数
+                        }
+                })
+            }
+            done();
+        }
+    }]);
+	//下载内容
+	function downloadContent(i,c){
+    var uri = 'http://www.meizitu.com/a/more_' + i + '.html';
+    c.queue([{
+        uri: uri,
+        jQuery: true,
+        callback: function (error, res, done) {
+            if(error){
+                console.log(error);
+            }else{
+                var $ = res.$;
+                var meiziSql = '';
+                $('.wp-item .pic a').each(function(index,item){
+                    var href = $(item).attr('href'); // 获取路径uri
+                    var regexp = /[0-9]+/g;
+                    var artice_id = href.match(regexp)[0]; // 获取文章ID
+                    var title = $(item).children('img').attr('alt');
+                    title = title.replace(/<[^>]+>/g,""); // 去掉 <b></b> 标签
+                    var src = $(item).children('img').attr('src');
+                    var create_time = new Date().getTime();
+                    if (href == 'http://www.meizitu.com/a/3900.html') {
+                        title = title.replace(/'/g,'');  // 这个的标题多了一个 单引号， mysql在插入的时候存在问题，所以这样处理了一下
+                    } 
+                    var values = "'" + artice_id + "'" + ',' 
+                            + "'" + title + "'" + ',' 
+                            +  "'" + href + "',"  
+                            + "'" + src + "'" + ',' 
+                            + "'" + create_time + "'";
+                    meiziSql = meiziSql + 'insert ignore into meizitu_all(artice_id,title,href,src,create_time) VALUES(' + values + ');';
+                })
+                pool.getConnection(function(err, connection) {
+                    if(err){
+                        console.log('数据库连接失败',i);
+                    }
+                    connection.query(meiziSql,function (err, results) {
+                        connection.release();
+                        if (err){
+                            console.log(err,i);
+                        }else{
+                            console.log('插入成功',i);
+                        }
+                    })
+                })
+            }
+            done();
+        }
+    }]);
+}

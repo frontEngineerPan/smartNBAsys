@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+                <input class="weui-input" v-model="student.userName" type="text" placeholder="姓名">
+                <input class="weui-input" type="text" v-model="student.phoneCode"  placeholder="手机">
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data:{
+                student:{
+                    userName:"",
+                    phoneCode:""
+                }
+        },
+        methods: {
+            doSubmit(){
+                var formData = JSON.stringify(this.student); // 这里才是你的表单数据
+                this.$http.post(url,formData).then(function(data){
+                    if(data.json().state=="success"){
+                        setTimeout(function () {
+                            console.log("success");
+                        }, 2000);
+                    }
+
+                }).catch(function(){
+                    console.log("服务器异常！");
+                });
+            }
+        }
+    })
+</script>
+</html>

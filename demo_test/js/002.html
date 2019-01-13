@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>这是一个示例博客</title>
+		<link href="../css/002.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		
+		<div id="container">
+    <div id="header">
+        <IMG SRC="../img/header_logo1.gif" WIDTH="386" HEIGHT="90" BORDER="0" ALT="">
+        This is the Header
+    </div>
+    <br class="clearfloat"/>
+
+    <div id="menu">
+        <div id="menu1">
+            <ul>
+                <li><a id="current" href="#">首页</a></li>
+                <li><a href="#">日志</a></li>
+                <li><a href="#">相册</a></li>
+                <li><a href="#">照片</a></li>
+                <li><a href="#">档案</a></li>
+                <li><a href="#">好友</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+    <br class="clearfloat"/>
+
+    <div id="mainContent">
+        <div id="sidebar">
+            <H5>This is the sidebar</H5>
+
+            <div id="sidebarmenu">
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+                <div class="item"><a href="home.htm">This is the sidebar menu</a></div>
+                <div class="line">&nbsp;</div>
+            </div>
+
+        </div>
+        <div id="content">
+
+
+            2列左窄右宽、高度自适应+头部+导航+尾部——<a href="http://www.aa25.cn">标准之路www.aa25.cn</a><br/>
+            <br/>
+            <br/>
+            　　此例子是非常实用的一个例子，大家可能注意到了，在header、menu、mainContent容器下都加上了&lt;br class=&quot;clearfloat&quot; /&gt;这句话，当然也可以用div。<br/>
+            <br/>
+            　　这句话是清除浮动用的，因为我们在header和menu内设计时都可能涉及到浮动，还有sidebar栏和content，本身已经浮动了，这样如果content的高度没有sidebar高时，footer也会浮动到sidebar右侧，造成整个页面错乱，采用这种方式可以有效避免错乱。<br/>
+            <br/>
+            　　另外，sidebar和content分别采用左浮动和右浮动的方式，可有效避免IE6的3像素bug。当然也可以采用自适应宽度时 margin-left:205px !important;
+            margin-left:202px;这种方法来修正3像素的问题。<br/>
+            <br/>
+            　　总之，实现的方法是多种多样的，这只是本人在学习过程中总结的一点经验，权当抛砖引玉，希望能对您有所帮助，当然您有更好的办法和布局，欢迎一块来学习，交流，让web标准在中国得到更好的发展。同时希望您继续关注标准之路(www.aa25.cn)<br/>
+            <br/>
+
+        </div>
+    </div>
+    <br class="clearfloat"/>
+
+    <div id="footer">This is the footer <br/>版权所有<br/></div>
+</div>
+	</body>
+</html>

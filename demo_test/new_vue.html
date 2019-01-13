@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>子向父通信</title>
+    <style>
+        #app {
+            border: 1px solid blue;
+            width: 500px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 8px;
+            background: fuchsia;
+        }
+
+        #wrapper {
+            border: 1px solid red;
+            width: 400px;
+            padding: 20px;
+            border-radius: 8px;
+            background: yellowgreen;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+<div id="app">
+    <!-- 父组件 -->
+    <h1>这是父组件</h1>
+    <p>展示父级接收到的消息:{{msg}}</p>
+    <button @click="useChild(szStr)">调用子组件的方法</button>
+    <!-- cus-event为子组件自定义的事件名； doAction($event)为父组件的事件，参数$event不可少也不可写成其他-->
+    <!-- ref表示组件的别名 -->
+    <child @cus-event="doAction($event)" ref="child1"></child>
+</div>
+</body>
+
+</html>
+<template id="child">
+    <div id="wrapper">
+        <!-- 子组件 -->
+        <h2>这是子组件</h2>
+        <button @click="sendToParent">向父组件发消息</button>
+    </div>
+</template>
+<script>
+    let child = {
+        template: '#child',
+        data() {
+            return {
+                msg: '子级消息'
+            };
+        },
+        methods: {
+            sendToParent() {
+                // 子组件只管发送消息，其中cus-event为自定义事件名（事件名不能写成驼峰法,多个单词用-连接），this.msg为要传递的参数。
+                this.$emit('cus-event', this.msg);
+            },
+            getMsg(str) {
+                console.log('子级组件收到父级的内容', str);
+            }
+        }
+    };
+
+    // 注意: .$mount('#app')跟实例内部el: '#app'是等价的
+    new Vue({
+        data: {
+            msg: '',
+            szStr:'父级消息'
+        },
+        components: {
+            child
+        },
+        methods: {
+            doAction(e) {
+                console.log(this);
+                console.log(e);
+                this.msg = e;
+            },
+            useChild(str) {
+                // 调用子组件的方法
+                // console.log(this);
+                // console.log(this.$refs);
+                // this.$refs.child1得到的子组件实例
+                this.$refs.child1.getMsg(str);
+            }
+        }
+    }).$mount('#app');
+</script>

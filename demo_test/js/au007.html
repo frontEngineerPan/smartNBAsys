@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+		<title> 关闭窗口的确认</title> 
+   
+	<SCRIPT LANGUAGE="JavaScript">
+			function closewindow()
+			{
+				var ques ;
+					ques=window.confirm("确实要关闭本窗口吗？") ;<!--confirm()方法用于显示一个带有指定消息和确认及取消按钮的对话框。-->
+				if  (ques) 
+				{  alert(ques)<!--alert() 方法用于显示带有一条指定消息和一个 OK 按钮的警告框。-->
+					window.close()
+				}
+			}
+	</script> 
+</head> 
+
+<body> 
+		<h3 align="center">关闭窗口的确认</h3> 
+		<input type="button" id="btn1" value="关闭窗口" onclick="closewindow()"> <!--button调用js的方法是onclick-->
+</body> 
+</html>   

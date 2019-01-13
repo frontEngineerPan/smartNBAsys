@@ -1,0 +1,157 @@
+a:link, a:hover, a:visited {
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana;
+    font-size: 14px;
+    margin: 0;
+    line-height: 150%;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 20px;
+    border: 1px solid #F8B3D0;
+    background-color: #FFF5FA;
+}
+
+#header {
+    height: 100px;
+    background: #6cf;
+    margin-bottom: 5px;
+    background: url(header_bg.jpg) repeat-x;/*这里引用了一张图片作为背景，而且重复图片*/
+}
+
+#menu {
+    height: 30px;
+    background: #09c;
+    margin-bottom: 5px;
+    background-color: #FFF5FA;
+}
+
+#mainContent {
+}
+
+#content {
+    float: right;
+    width: 670px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px dashed fuchsia;/*紫荆色*/
+    background-color: #FFFFFf;
+    background: url(right_content_bg.gif);
+    color: #ff00ff;
+    line-height: 29px;
+}
+
+/*因为是固定宽度，采用左右浮动方法可有效避免ie 3像素bug*/
+#content h5 {
+    margin: 1px;
+    background-color: #ee00ff;
+    height: 24px;
+    color: white;
+}
+
+#footer {
+    height: 60px;
+    background: #6cf;
+    background: url(footer_bg.jpg);
+    text-align: center;
+    font-size: 10pt;
+}
+
+#menu1 {
+    width: 550px;
+    height: 28px;
+    margin: 0 auto;
+    border-bottom: 3px solid #E10001;
+}
+
+#menu1 ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu1 ul li {
+    float: left;
+    margin-left: 2px;
+}
+
+#menu1 ul li a {
+    display: block;
+    width: 87px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: url(menu5_nav_bg.gif) 0 -28px no-repeat;
+    font-size: 14px;
+    text-decoration: none;
+    color: #cc0099;
+}
+
+#menu1 ul li a#current {
+    background: url(menu5_nav_bg.gif) 0 0 no-repeat;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu1 ul li a:hover {
+    background: url(menu5_nav_bg.gif) 0 -56px no-repeat;
+    color: #ff1493;
+    text-decoration: none;
+}
+
+#sidebar {
+    float: left;
+    width: 200px;
+    margin-bottom: 5px;
+    border: 1px solid #ffb468;
+    background-color: #FFF9ED;
+}
+
+#sidebar #sidebarmenu {
+}
+
+#sidebar #sidebarmenu .item {
+    background-image: url(sidebar_menu.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    font-family: Georgia;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 30px;
+    color: #467708;
+}
+
+#sidebar #sidebarmenu .line {
+    line-height: 8px;
+    margin-top: 5px;
+    border-top: 1px dashed #ffb468;/*dashed的意思是虚线,这里也是产生图像的关键*/
+}
+
+#sidebar #sidebarmenu a:link, a:visited {
+    color: #ffcc66;
+}
+
+#sidebar #sidebarmenu a:hover {
+    color: #ff1493;
+    text-decoration: underline;
+}
+
+#sidebar h5 {
+    margin: 1px;
+    background-color: #ffb468;
+    height: 24px;
+    color: #f5fffa;
+}

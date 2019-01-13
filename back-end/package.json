@@ -1,0 +1,24 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "back-end-nba",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express":"4.16.4",
+    "url":"0.11.0",
+    "mongoose":"5.0.0",
+    "babel":"0.0.1"
+  },
+  "devDependencies": {
+    "express":"4.16.4",
+    "url":"0.11.0",
+    "mongoose":"5.0.0",
+    "babel":"0.0.1"
+  },
+  "author": "pym",
+  "license": "ISC"
+}

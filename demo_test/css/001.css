@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana;
+	font-size: 14px;
+	margin: 0;
+	line-height: 150%;
+}
+#container {
+	margin: 0 auto;
+	width: 900px;
+}
+#header {
+	height: 80px;
+	background: #EEE685;
+	text-align: center;
+	text-align-last: center;
+	margin-bottom: 5px;
+}
+#menu {
+	height: 30px;
+	background: #09c;
+	margin-bottom: 5px;
+}
+#mainContent {
+	border:1pt solid #EECFA1;
+}
+#sidebar {
+	float: left;
+	width: 200px;
+	background: #E6E6FA;
+	margin-bottom: 5px;
+}
+#content {
+	float: right;
+	width: 675px;
+	padding: 10px;
+	background:#BA55D3 ;
+	margin-bottom: 5px;
+}
+/*因为是固定宽度，采用左右浮动方法可有效避免ie 3像素bug*/
+#footer {
+	height: 60px;
+	background: #CD950C;
+}
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}

@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<TITLE>姓名和密码 </TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="js.css">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function test()
+{
+   if ((f1.n1.value!='')&&(f1.pwd.value!=''))
+  {   alert("通过!\n用户名和密码不为空\n 可以正常跳转到test.htm文件")
+       	return (true)
+  } <!--alert() 方法用于显示带有一条指定消息和一个 OK 按钮的警告框。-->
+     
+  else
+  {   alert("用户名和密码不能为空")
+      return false;
+  } 
+}<!--函数必须指定返回true或者false-->
+
+
+
+//-->
+</SCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="#FF33FFF">
+<FORM METHOD=POST  ACTION="test.htm" name="f1" onsubmit="return test()" ><!--onsubmit启动按钮被单击时的事件--><!--action代表form被执行后的跳转-->
+	姓名：<INPUT TYPE="text" NAME="n1" ><P><!--input的type若是text就是文本框若是submit就是按钮-->
+	密码：<INPUT TYPE="text" NAME="pwd"><P>
+	<INPUT TYPE="submit" value="提交" >
+
+</FORM>
+</BODY>
+</HTML> 
