@@ -2,22 +2,25 @@
     <div id="register">
         <el-form class="formRewrite"  :model="form1">
             <el-form-item id="item1" label="用户ID" prop="id">
-                <el-input type="text"  autocomplete="off" style="width:200px"></el-input>
+                <el-input type="text" v-model="loginUserName" autocomplete="off" style="width:200px"></el-input>
             </el-form-item>
             <el-form-item id="item2" label="密码" prop="pass">
-                <el-input type="password" autocomplete="off" style="width:200px"></el-input>
+                <el-input type="password" v-model="loginPassWord" autocomplete="off" style="width:200px"></el-input>
             </el-form-item>
-            <el-button type="primary" @click="onSubmit">登录</el-button>
+            <el-button type="primary" @click="login">登录</el-button>
         </el-form>
     </div>
 </template>
 <script>
+    /*yet,code for fun*/
     export default {
-        name:"register",
+        name:"login",
         data:function () {
             return{
                 form1:null,
-                body:'456'
+                loginUserName:null,
+                loginPassWord:null,
+                sf:0
             }
         },
         methods:{
@@ -29,6 +32,31 @@
                     console.log(this.body);
                     console.log(response.body);
                 });
+            },
+            login(){
+                if(this.loginUserName&&this.loginPassWord){
+                    var url= 'http://localhost:3000/login/'+encodeURI(this.loginUserName)+'/'+this.loginPassWord;
+                    this.$http.get(
+                        url,
+                    ).then((response) => {
+                        this.sf=1;
+                        //alert("登录成功！");
+                        this.$notify({
+                            title: '成功',
+                            message: '您已成功登入专属NBA',
+                            type: 'success'
+                        });
+                        console.log("login success!");
+                    },()=>{
+                       alert("登录异常！");
+                    });
+                }else{
+                        this.$notify({
+                            title: '失败',
+                            message: '登录异常',
+                            type: 'warning'
+                        });
+                };
             }
         }
     }

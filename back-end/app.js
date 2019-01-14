@@ -2,6 +2,14 @@ const express = require('express');
 const app = express();
 var mongoose = require('mongoose');
 var fs = require("fs");
+var process=require("process");
+//process.on保证了进程遇到错误不会突然退出
+process.on('uncaughtException', function (err) {
+    //打印出错误
+    console.log(err);
+    //打印出错误的调用栈方便调试
+    console.log(err.stack);
+});
 //连接数据库
 mongoose.connect('mongodb://localhost/smartNBAsys');
 var db = mongoose.connection;
@@ -47,6 +55,7 @@ app.get('/register/:name/:word', function(req, res) {
         user_id:decodeURI(req.params.name),
         password:req.params.word
     };
+    /*通过数据将model实例化*/
     var f=new newUserModel(obj_user);
     //存库
     f.save(function (err, f) {
@@ -54,6 +63,31 @@ app.get('/register/:name/:word', function(req, res) {
         f.speak();
     });
     res.send({register:"success"});
+});
+app.get('/login/:name/:word', function(req, res) {
+    var obj_user2={
+        user_id:decodeURI(req.params.name),
+        password:req.params.word
+    };
+        try {
+            newUserModel.findOne({
+                'user_id': obj_user2.user_id,
+                'password': obj_user2.password
+            }, 'user_id password', function (err, newusermodels) {
+                if (err) {
+                    //console.log("用户名或者密码错误！");
+                    //res.send({login: "failed"});
+                    return handleError(err);
+                }
+                ;
+                // Prints "Space Ghost is a talk show host".
+                console.log('%s password is  %s.', newusermodels.user_id, newusermodels.password);
+                res.send({login: "success"});
+            });
+        }catch(e){
+            console.log(e);
+            res.send({login: "failed"});
+        }
 });
 /*****************以上为路由***********************/
 app.listen(3000);

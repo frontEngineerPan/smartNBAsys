@@ -11,13 +11,19 @@
     "express":"4.16.4",
     "url":"0.11.0",
     "mongoose":"5.0.0",
-    "babel":"0.0.1"
+    "babel":"0.0.1",
+    "body-parser":"1.18.3",
+    "depd":"2.0.0",
+    "process":"0.11.10"
   },
   "devDependencies": {
     "express":"4.16.4",
     "url":"0.11.0",
     "mongoose":"5.0.0",
-    "babel":"0.0.1"
+    "babel":"0.0.1",
+    "body-parser":"1.18.3",
+    "depd":"2.0.0",
+    "process":"0.11.10"
   },
   "author": "pym",
   "license": "ISC"

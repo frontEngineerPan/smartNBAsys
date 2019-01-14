@@ -38,6 +38,11 @@
                     this.$http.get(
                         url,
                     ).then((response) => {
+                        this.$notify({
+                            title: '成功',
+                            message: '您已成功注册专属NBA',
+                            type: 'success'
+                        });
                         console.log("register success!");
                     });
                 }
