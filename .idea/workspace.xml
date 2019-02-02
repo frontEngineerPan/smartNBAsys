@@ -2,89 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597b7fc1-8a52-45b3-b164-ecc2848d6c5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/createDaoPai.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/nbaCrawler_1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/node_modules/_nodejieba@2.3.0@nodejieba/test/testdata/Dict8.utf8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/stdTeamData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/stopW.utf8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/app.js" afterPath="$PROJECT_DIR$/back-end/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/.package_versions.json" afterPath="$PROJECT_DIR$/back-end/node_modules/.package_versions.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_accepts@1.3.5@accepts/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_accepts@1.3.5@accepts/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_array-flatten@1.1.1@array-flatten/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_array-flatten@1.1.1@array-flatten/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_async@2.1.4@async/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_async@2.1.4@async/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_babel@0.0.1@babel/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_babel@0.0.1@babel/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_bluebird@3.5.0@bluebird/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_bluebird@3.5.0@bluebird/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_body-parser@1.18.3@body-parser/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_body-parser@1.18.3@body-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_bson@1.0.9@bson/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_bson@1.0.9@bson/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_bytes@3.0.0@bytes/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_bytes@3.0.0@bytes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_content-disposition@0.5.2@content-disposition/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_content-disposition@0.5.2@content-disposition/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_content-type@1.0.4@content-type/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_content-type@1.0.4@content-type/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_cookie-signature@1.0.6@cookie-signature/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_cookie-signature@1.0.6@cookie-signature/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_cookie@0.3.1@cookie/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_cookie@0.3.1@cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_debug@2.6.9@debug/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_debug@2.6.9@debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_depd@1.1.2@depd/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_depd@1.1.2@depd/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_destroy@1.0.4@destroy/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_destroy@1.0.4@destroy/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_ee-first@1.1.1@ee-first/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_ee-first@1.1.1@ee-first/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_encodeurl@1.0.2@encodeurl/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_encodeurl@1.0.2@encodeurl/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_escape-html@1.0.3@escape-html/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_escape-html@1.0.3@escape-html/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_etag@1.8.1@etag/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_etag@1.8.1@etag/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_eventemitter2@0.4.14@eventemitter2/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_eventemitter2@0.4.14@eventemitter2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_express@4.16.4@express/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_express@4.16.4@express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_finalhandler@1.1.1@finalhandler/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_finalhandler@1.1.1@finalhandler/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_forwarded@0.1.2@forwarded/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_forwarded@0.1.2@forwarded/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_fresh@0.5.2@fresh/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_fresh@0.5.2@fresh/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_http-errors@1.6.3@http-errors/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_http-errors@1.6.3@http-errors/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_iconv-lite@0.4.23@iconv-lite/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_iconv-lite@0.4.23@iconv-lite/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_inherits@2.0.3@inherits/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_inherits@2.0.3@inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_ipaddr.js@1.8.0@ipaddr.js/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_ipaddr.js@1.8.0@ipaddr.js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_kareem@2.0.1@kareem/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_kareem@2.0.1@kareem/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_lodash.get@4.4.2@lodash.get/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_lodash.get@4.4.2@lodash.get/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_lodash@4.17.11@lodash/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_lodash@4.17.11@lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_media-typer@0.3.0@media-typer/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_media-typer@0.3.0@media-typer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_merge-descriptors@1.0.1@merge-descriptors/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_merge-descriptors@1.0.1@merge-descriptors/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_methods@1.1.2@methods/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_methods@1.1.2@methods/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mime-db@1.37.0@mime-db/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mime-db@1.37.0@mime-db/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mime-types@2.1.21@mime-types/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mime-types@2.1.21@mime-types/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mime@1.4.1@mime/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mime@1.4.1@mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mongodb-core@3.0.1@mongodb-core/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mongodb-core@3.0.1@mongodb-core/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mongodb@3.0.1@mongodb/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mongodb@3.0.1@mongodb/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mongoose-legacy-pluralize@1.0.1@mongoose-legacy-pluralize/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mongoose-legacy-pluralize@1.0.1@mongoose-legacy-pluralize/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mongoose@5.0.0@mongoose/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mongoose@5.0.0@mongoose/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mpath@0.3.0@mpath/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mpath@0.3.0@mpath/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_mquery@3.0.0-rc0@mquery/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_mquery@3.0.0-rc0@mquery/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_ms@2.0.0@ms/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_ms@2.0.0@ms/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_negotiator@0.6.1@negotiator/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_negotiator@0.6.1@negotiator/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_on-finished@2.3.0@on-finished/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_on-finished@2.3.0@on-finished/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_parseurl@1.3.2@parseurl/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_parseurl@1.3.2@parseurl/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_path-to-regexp@0.1.7@path-to-regexp/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_path-to-regexp@0.1.7@path-to-regexp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_proxy-addr@2.0.4@proxy-addr/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_proxy-addr@2.0.4@proxy-addr/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_punycode@1.3.2@punycode/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_punycode@1.3.2@punycode/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_qs@6.5.2@qs/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_qs@6.5.2@qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_querystring@0.2.0@querystring/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_querystring@0.2.0@querystring/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_range-parser@1.2.0@range-parser/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_range-parser@1.2.0@range-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_raw-body@2.3.3@raw-body/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_raw-body@2.3.3@raw-body/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_regexp-clone@0.0.1@regexp-clone/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_regexp-clone@0.0.1@regexp-clone/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_require_optional@1.0.1@require_optional/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_require_optional@1.0.1@require_optional/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_resolve-from@2.0.0@resolve-from/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_resolve-from@2.0.0@resolve-from/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_safe-buffer@5.1.2@safe-buffer/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_safe-buffer@5.1.2@safe-buffer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_safer-buffer@2.1.2@safer-buffer/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_safer-buffer@2.1.2@safer-buffer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_semver@5.6.0@semver/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_semver@5.6.0@semver/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_send@0.16.2@send/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_send@0.16.2@send/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_serve-static@1.13.2@serve-static/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_serve-static@1.13.2@serve-static/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_setprototypeof@1.1.0@setprototypeof/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_setprototypeof@1.1.0@setprototypeof/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_should@1.2.2@should/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_should@1.2.2@should/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_sliced@0.0.5@sliced/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_sliced@0.0.5@sliced/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_sliced@1.0.1@sliced/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_sliced@1.0.1@sliced/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_statuses@1.4.0@statuses/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_statuses@1.4.0@statuses/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_statuses@1.5.0@statuses/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_statuses@1.5.0@statuses/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_type-is@1.6.16@type-is/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_type-is@1.6.16@type-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_unpipe@1.0.0@unpipe/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_unpipe@1.0.0@unpipe/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_url@0.11.0@url/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_url@0.11.0@url/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_utils-merge@1.0.1@utils-merge/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_utils-merge@1.0.1@utils-merge/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_vary@1.1.2@vary/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_vary@1.1.2@vary/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/package.json" afterPath="$PROJECT_DIR$/back-end/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/App.vue" afterPath="$PROJECT_DIR$/front-end/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/login.vue" afterPath="$PROJECT_DIR$/front-end/src/component/login.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/register.vue" afterPath="$PROJECT_DIR$/front-end/src/component/register.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/routes.js" afterPath="$PROJECT_DIR$/front-end/src/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,78 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/component/register.vue">
+      <file leaf-file-name="createDaoPai.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back-end/createDaoPai.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#el-input#0;n#el-form-item#0;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-input#0;n#el-form-item#1;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+            <state relative-caret-position="299">
+              <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="infoNews.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/component/login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#el-input#0;n#el-form-item#1;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/back-end/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/package.json">
+      <file leaf-file-name="新建文本文档.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back-end/新建文本文档.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="1161">
+              <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stdTeamData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back-end/stdTeamData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2241">
+              <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -189,6 +77,8 @@
     <replaceStrings>
       <replace>register</replace>
       <replace>login</replace>
+      <replace>name</replace>
+      <replace>teamName</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Shinelon\Documents\HBuilderProjects\element-starter-master</dir>
@@ -222,13 +112,17 @@
         <option value="$PROJECT_DIR$/back-end/app4.js" />
         <option value="$PROJECT_DIR$/back-end/app5.js" />
         <option value="$PROJECT_DIR$/平时使用的练手项目/javascript/002.js" />
-        <option value="$PROJECT_DIR$/back-end/package.json" />
         <option value="$PROJECT_DIR$/back-end/app.js" />
         <option value="$PROJECT_DIR$/front-end/src/component/login.vue" />
         <option value="$PROJECT_DIR$/front-end/src/component/register.vue" />
         <option value="$PROJECT_DIR$/front-end/src/App.vue" />
         <option value="$PROJECT_DIR$/front-end/src/routes.js" />
         <option value="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
+        <option value="$PROJECT_DIR$/back-end/package.json" />
+        <option value="$PROJECT_DIR$/back-end/copyStd.js" />
+        <option value="$PROJECT_DIR$/back-end/stdTeamData.js" />
+        <option value="$PROJECT_DIR$/back-end/新建文本文档.txt" />
+        <option value="$PROJECT_DIR$/back-end/createDaoPai.js" />
       </list>
     </option>
   </component>
@@ -250,8 +144,12 @@
     <handled-path value="$PROJECT_DIR$/front-end/node_modules" />
     <handled-path value="$PROJECT_DIR$/nba_project/node_modules" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/back-end/package.json" />
+    <dismissed value="$PROJECT_DIR$/nba_project/package.json" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1050" />
+    <option name="x" value="694" />
     <option name="width" value="868" />
     <option name="height" value="1057" />
   </component>
@@ -273,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,28 +183,12 @@
               <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
               <item name="back-end" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="smartNBAsys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartNBAsys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartNBAsys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,6 +203,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\back-end\node_modules\_nodejieba@2.3.0@nodejieba\test\testdata" />
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\back-end" />
       <recent name="C:\Users\Shinelon\Documents\HBuilderProjects\back-end" />
       <recent name="C:\Users\Shinelon\Documents\HBuilderProjects\front-end\src\assets" />
     </key>
@@ -376,16 +258,23 @@
       <workItem from="1547366709915" duration="1260000" />
       <workItem from="1547369267842" duration="7337000" />
       <workItem from="1547437082028" duration="9942000" />
+      <workItem from="1547826483868" duration="794000" />
+      <workItem from="1547870788205" duration="15665000" />
+      <workItem from="1547960104129" duration="1573000" />
+      <workItem from="1547986261998" duration="7734000" />
+      <workItem from="1548940994126" duration="6452000" />
+      <workItem from="1549070837888" duration="12922000" />
+      <workItem from="1549105751463" duration="308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83746000" />
+    <option name="totallyTimeSpent" value="129194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10695469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11327714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -415,23 +304,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/element-starter-master/package.json" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/App.vue" />
-    <entry file="file://$PROJECT_DIR$/平时使用的练手项目/router_test.html" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/welcome.vue" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/newUser.vue" />
-    <entry file="file://$PROJECT_DIR$/nba_project/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/main.js" />
-    <entry file="file://$PROJECT_DIR$/平时使用的练手项目/index.html" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/package.json" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/index.html" />
     <entry file="file://$PROJECT_DIR$/element-starter-master/src/welcome.vue" />
     <entry file="file://$PROJECT_DIR$/element-starter-master/src/newUser.vue" />
     <entry file="file://$PROJECT_DIR$/nba_project/server.js">
@@ -513,7 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,15 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nba_project/nbaCrawler_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,33 +407,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -580,35 +421,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/component/login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#el-input#0;n#el-form-item#1;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/register.vue">
+    <entry file="file://$PROJECT_DIR$/nba_project/nbaCrawler_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#el-input#0;n#el-form-item#0;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-input#0;n#el-form-item#1;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/stdName.utf8" />
+    <entry file="file://$PROJECT_DIR$/back-end/copyStd.js" />
+    <entry file="file://$PROJECT_DIR$/nba_project/stdTeamData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/node_modules/_nodejieba@2.3.0@nodejieba/test/testdata/userdict.utf8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/node_modules/_nodejieba@2.3.0@nodejieba/test/testdata/Dict8.utf8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/stopW.utf8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/Dict8.utf8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/nbaCrawler_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/新建文本文档.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/stdTeamData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/createDaoPai.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
           <folding />
         </state>
       </provider>

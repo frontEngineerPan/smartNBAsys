@@ -14,7 +14,9 @@
     "babel":"0.0.1",
     "body-parser":"1.18.3",
     "depd":"2.0.0",
-    "process":"0.11.10"
+    "process":"0.11.10",
+    "node-gyp": "3.8.0",
+    "nodejieba2":"2.2.4"
   },
   "devDependencies": {
     "express":"4.16.4",
@@ -23,7 +25,9 @@
     "babel":"0.0.1",
     "body-parser":"1.18.3",
     "depd":"2.0.0",
-    "process":"0.11.10"
+    "process":"0.11.10",
+    "node-gyp":"3.8.0",
+    "nodejieba2":"2.2.4"
   },
   "author": "pym",
   "license": "ISC"
