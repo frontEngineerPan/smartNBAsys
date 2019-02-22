@@ -1,0 +1,12 @@
+var a=0.1314579;
+var b=0.6768433;
+var c=0.4422135;
+var d=0.2627417;
+var s=[];
+s.push(a);
+s.push(b);
+s.push(c);
+s.push(d);
+s.sort();
+s.reverse();
+console.log(s);

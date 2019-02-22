@@ -1,7 +1,9 @@
+/*算法模块正常编写就行了，因为计算本身就是同步的，然后通过回调的方式保证先计算再输出*/
 const mongoose = require ('mongoose');
 const jieba = require ('nodejieba');
 const fs = require('fs');
 var R = require('./stdTeamData.js');
+const nbaPicTextX = require('./nbaPicTextX_model.js');
 //连接数据库
 //process.on保证了进程遇到错误不会突然退出
 process.on('uncaughtException', function (err) {
@@ -19,12 +21,6 @@ db.once('open', function() {
     // we're connected!
     console.log("now connected!");
 });
-var picTextSchema = mongoose.Schema({
-    nba_id:Number,
-    title:String,
-    content:String
-});
-var nbaPicTextX = mongoose.model('nbaPicTextX',picTextSchema);
 //docs是格式化的查询结果
 var docs=[];
 //jiebaDocs是分词后的文档集
@@ -82,24 +78,22 @@ nbaPicTextX.find({}, 'nba_id content', function (err, result) {
     //总是使用下标代表词语
     //下标和原文档编号存在加1调和
     for(let i=0;i<wordInfo.length;i++){
-         var tfDocs=[];
-         var tfIdfDocs=[];
-         if(wordInfo[i].ariseDocs!=undefined&&wordInfo[i].ariseDocs.length>0){
-             for(let j=0;j<jiebaDocs.length;j++){
-                 var wdNum=0;
-                 jiebaDocs[j].forEach(function(e){
-                     if(e===wBase[i]){
+        var tfDocs=[];
+        var tfIdfDocs=[];
+        if(wordInfo[i].ariseDocs!=undefined&&wordInfo[i].ariseDocs.length>0){
+            for(let j=0;j<jiebaDocs.length;j++){
+                var wdNum=0;
+                jiebaDocs[j].forEach(function(e){
+                    if(e===wBase[i]){
                         wdNum++;
-                     }
-                 });
-                 tfDocs[j]=wdNum/jiebaDocs[j].length;
-                 tfIdfDocs[j]=tfDocs[j]*wordInfo[i].idf;
-             }
-         }
-         wordInfo[i].tf=tfDocs;
-         wordInfo[i].tfidf=tfIdfDocs;
+                    }
+                });
+                tfDocs[j]=wdNum/jiebaDocs[j].length;
+                tfIdfDocs[j]=tfDocs[j]*wordInfo[i].idf;
+            }
+        }
+        wordInfo[i].tf=tfDocs;
+        wordInfo[i].tfidf=tfIdfDocs;
     }
-    console.log(wordInfo[0]);
 });
-
-
+module.exports=wordInfo;

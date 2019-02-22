@@ -12,7 +12,7 @@
     </div>
 </template>
 <script>
-    /*yet,code for fun*/
+    import EM from '../EventEmitter.js'
     export default {
         name:"login",
         data:function () {
@@ -33,14 +33,18 @@
                     console.log(response.body);
                 });
             },
+            comunicate(){
+                this.sf=1;
+                console.log('sf'+this.sf);
+                EM.emit('foo',this.sf);
+            },
             login(){
                 if(this.loginUserName&&this.loginPassWord){
                     var url= 'http://localhost:3000/login/'+encodeURI(this.loginUserName)+'/'+this.loginPassWord;
                     this.$http.get(
                         url,
                     ).then((response) => {
-                        this.sf=1;
-                        //alert("登录成功！");
+                        this.comunicate();
                         this.$notify({
                             title: '成功',
                             message: '您已成功登入专属NBA',

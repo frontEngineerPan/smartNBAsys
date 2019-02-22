@@ -11,7 +11,8 @@
     "element-ui": "^2.3.4",
     "vue": "^2.5.16",
     "vue-router": "^3.0.2",
-    "vue-resource":"1.5.1"
+    "vue-resource":"1.5.1",
+    "EventEmitter":"1.0.0"
   },
   "engines": {
     "node": ">=6"
@@ -33,6 +34,7 @@
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.2",
     "vue-router": "3.0.2",
-    "vue-resource":"1.5.1"
+    "vue-resource":"1.5.1",
+    "EventEmitter":"1.0.0"
   }
 }

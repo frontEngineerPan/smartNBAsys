@@ -18,7 +18,7 @@ var id=1;
             }
             console.log(greeting);
           }
-            var nbaPicTextX = mongoose.model('nbaPicTextX',picTextSchema);
+       var nbaPicTextX = mongoose.model('nbaPicTextX',picTextSchema);
 var c = new Crawler({
     // 在每个请求处理完毕后将调用此回调函数
     callback : function (error, res, done) {

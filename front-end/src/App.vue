@@ -19,6 +19,7 @@ Vue.use(VueRouter);
 Vue.use(VueResource);
 export default {
   methods: {
+
   }
 }
 </script>

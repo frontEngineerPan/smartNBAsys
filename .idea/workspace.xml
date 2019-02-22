@@ -2,14 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597b7fc1-8a52-45b3-b164-ecc2848d6c5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/createDaoPai.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/nbaCrawler_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/node_modules/_nodejieba@2.3.0@nodejieba/test/testdata/Dict8.utf8" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/stdTeamData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/stopW.utf8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/arrayI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/concatArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/concatDiffWord.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/dataBackUp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/linkDataBase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/nbaPicTextX_model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/showWordInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/sync3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/testJsonTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/testSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/testNode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/EventEmitter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sync2.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back-end/app2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back-end/app3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back-end/app4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/back-end/app5.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/Dict8.utf8" afterPath="$PROJECT_DIR$/back-end/Dict8.utf8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/app.js" afterPath="$PROJECT_DIR$/back-end/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/createDaoPai.js" afterPath="$PROJECT_DIR$/back-end/createDaoPai.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/nbaCrawler_1.js" afterPath="$PROJECT_DIR$/back-end/nbaCrawler_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/.package_versions.json" afterPath="$PROJECT_DIR$/back-end/node_modules/.package_versions.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/node_modules/_nodejieba2@2.2.4@nodejieba2/package.json" afterPath="$PROJECT_DIR$/back-end/node_modules/_nodejieba2@2.2.4@nodejieba2/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/package.json" afterPath="$PROJECT_DIR$/back-end/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/stdTeamData.js" afterPath="$PROJECT_DIR$/back-end/stdTeamData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo_test/index.html" afterPath="$PROJECT_DIR$/demo_test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/package.json" afterPath="$PROJECT_DIR$/front-end/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/App.vue" afterPath="$PROJECT_DIR$/front-end/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/infoNews.vue" afterPath="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/login.vue" afterPath="$PROJECT_DIR$/front-end/src/component/login.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/index.html" afterPath="$PROJECT_DIR$/front-end/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/main.js" afterPath="$PROJECT_DIR$/front-end/src/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,41 +50,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="89" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+              <folding>
+                <element signature="e#705#740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/component/login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infoNews.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testNode.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_test/testNode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back-end/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventEmitter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/EventEmitter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="createDaoPai.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/back-end/createDaoPai.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+            <state relative-caret-position="2646">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/back-end/app.js">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+            <state relative-caret-position="162">
+              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="新建文本文档.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/新建文本文档.txt">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="27">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stdTeamData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/stdTeamData.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2241">
-              <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+            <state relative-caret-position="243">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -74,6 +165,27 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arise</find>
+      <find>马克</find>
+      <find>坎宁</find>
+      <find>丹尼尔斯</find>
+      <find>斯布鲁克</find>
+      <find>利拉德</find>
+      <find>克劳德</find>
+      <find>蒂格</find>
+      <find>罗斯</find>
+      <find>富尔茨</find>
+      <find>雷吉</find>
+      <find>洛伊尔</find>
+      <find>奥拉迪波</find>
+      <find>坎特</find>
+      <find>贝兹莫尔</find>
+      <find>奥托波特</find>
+      <find>卢克</find>
+      <find>沃顿</find>
+      <find>resultWithDocs</find>
+    </findStrings>
     <replaceStrings>
       <replace>register</replace>
       <replace>login</replace>
@@ -90,21 +202,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/element-starter-master/package.json" />
-        <option value="$PROJECT_DIR$/element-starter-master/src/index.html" />
-        <option value="$PROJECT_DIR$/平时使用的练手项目/new_vue.html" />
-        <option value="$PROJECT_DIR$/element-starter-master/src/welcome.vue" />
-        <option value="$PROJECT_DIR$/element-starter-master/src/App.vue" />
-        <option value="$PROJECT_DIR$/element-starter-master/src/main.js" />
-        <option value="$PROJECT_DIR$/element-starter-master/src/newUser.vue" />
-        <option value="$PROJECT_DIR$/平时使用的练手项目/router_test.html" />
-        <option value="$PROJECT_DIR$/front-end/src/main.js" />
         <option value="$PROJECT_DIR$/front-end/src/component/foo.vue" />
         <option value="$PROJECT_DIR$/front-end/src/component/bar.vue" />
         <option value="$PROJECT_DIR$/front-end/src/component/welcome.vue" />
         <option value="$PROJECT_DIR$/nba_project/server.js" />
         <option value="$PROJECT_DIR$/nba_project/package.json" />
-        <option value="$PROJECT_DIR$/front-end/package.json" />
         <option value="$PROJECT_DIR$/back-end/server.js" />
         <option value="$PROJECT_DIR$/back-end/app3.js" />
         <option value="$PROJECT_DIR$/back-end/app2.js" />
@@ -112,17 +214,45 @@
         <option value="$PROJECT_DIR$/back-end/app4.js" />
         <option value="$PROJECT_DIR$/back-end/app5.js" />
         <option value="$PROJECT_DIR$/平时使用的练手项目/javascript/002.js" />
-        <option value="$PROJECT_DIR$/back-end/app.js" />
-        <option value="$PROJECT_DIR$/front-end/src/component/login.vue" />
         <option value="$PROJECT_DIR$/front-end/src/component/register.vue" />
-        <option value="$PROJECT_DIR$/front-end/src/App.vue" />
         <option value="$PROJECT_DIR$/front-end/src/routes.js" />
-        <option value="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
-        <option value="$PROJECT_DIR$/back-end/package.json" />
         <option value="$PROJECT_DIR$/back-end/copyStd.js" />
-        <option value="$PROJECT_DIR$/back-end/stdTeamData.js" />
         <option value="$PROJECT_DIR$/back-end/新建文本文档.txt" />
+        <option value="$PROJECT_DIR$/back-end/nbaCrawler_1.js" />
+        <option value="$PROJECT_DIR$/back-end/package.json" />
+        <option value="$PROJECT_DIR$/back-end/sync.js" />
+        <option value="$PROJECT_DIR$/sync2.js" />
+        <option value="$PROJECT_DIR$/back-end/sync3.js" />
+        <option value="$PROJECT_DIR$/back-end/createDaoPai3.js" />
+        <option value="$PROJECT_DIR$/back-end/testSort.js" />
+        <option value="$PROJECT_DIR$/back-end/createDaoPai2.js" />
+        <option value="$PROJECT_DIR$/back-end/arrayI.js" />
+        <option value="$PROJECT_DIR$/back-end/dataBackUp" />
+        <option value="$PROJECT_DIR$/back-end/concatArray.js" />
+        <option value="$PROJECT_DIR$/back-end/concatDiffWord.js" />
+        <option value="$PROJECT_DIR$/back-end/Dict8.utf8" />
+        <option value="$PROJECT_DIR$/back-end/stdTeamData.js" />
+        <option value="$PROJECT_DIR$/back-end/nbaPicTextX_model.js" />
+        <option value="$PROJECT_DIR$/back-end/linkDataBase.js" />
         <option value="$PROJECT_DIR$/back-end/createDaoPai.js" />
+        <option value="$PROJECT_DIR$/back-end/showWordInfo.js" />
+        <option value="$PROJECT_DIR$/back-end/testJsonTitle.js" />
+        <option value="$PROJECT_DIR$/back-end/app.js" />
+        <option value="$PROJECT_DIR$/demo_test/index.html" />
+        <option value="$PROJECT_DIR$/demo_test/e.js" />
+        <option value="$PROJECT_DIR$/front-end/src/bus.js" />
+        <option value="$PROJECT_DIR$/front-end/src/assets/bus.js" />
+        <option value="$PROJECT_DIR$/front-end/src/component/bus.vue" />
+        <option value="$PROJECT_DIR$/front-end/src/component/bus.js" />
+        <option value="$PROJECT_DIR$/front-end/src/component/go.vue" />
+        <option value="$PROJECT_DIR$/front-end/src/main.js" />
+        <option value="$PROJECT_DIR$/front-end/src/index.html" />
+        <option value="$PROJECT_DIR$/front-end/package.json" />
+        <option value="$PROJECT_DIR$/front-end/src/App.vue" />
+        <option value="$PROJECT_DIR$/front-end/src/EventEmitter.js" />
+        <option value="$PROJECT_DIR$/front-end/src/component/login.vue" />
+        <option value="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
+        <option value="$PROJECT_DIR$/demo_test/testNode.js" />
       </list>
     </option>
   </component>
@@ -143,15 +273,17 @@
     <handled-path value="$PROJECT_DIR$/back-end/node_modules" />
     <handled-path value="$PROJECT_DIR$/front-end/node_modules" />
     <handled-path value="$PROJECT_DIR$/nba_project/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/back-end/package.json" />
     <dismissed value="$PROJECT_DIR$/nba_project/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="694" />
-    <option name="width" value="868" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="304" />
+    <option name="y" value="40" />
+    <option name="width" value="1501" />
+    <option name="height" value="1067" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,17 +310,12 @@
               <item name="smartNBAsys" type="b2602c69:ProjectViewProjectNode" />
               <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="smartNBAsys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +329,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src\component" />
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src" />
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shinelon\Documents\smartNBAsys\back-end\node_modules\_nodejieba@2.3.0@nodejieba\test\testdata" />
       <recent name="C:\Users\Shinelon\Documents\smartNBAsys\back-end" />
@@ -221,17 +353,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.router_test.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="e.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="e.js" working-dir="$PROJECT_DIR$/demo_test" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/smartNBAsys/demo_test/index.html" />
     <configuration name="new_vue.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HBuilderProjects/平时使用的练手项目/new_vue.html" />
     <configuration name="router_test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HBuilderProjects/平时使用的练手项目/router_test.html" />
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.new_vue.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.router_test.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.e.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.router_test.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.new_vue.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.e.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.router_test.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.new_vue.html" />
       </list>
     </recent_temporary>
   </component>
@@ -264,21 +402,45 @@
       <workItem from="1547986261998" duration="7734000" />
       <workItem from="1548940994126" duration="6452000" />
       <workItem from="1549070837888" duration="12922000" />
-      <workItem from="1549105751463" duration="308000" />
+      <workItem from="1549105751463" duration="2610000" />
+      <workItem from="1549116852117" duration="829000" />
+      <workItem from="1549162711916" duration="1064000" />
+      <workItem from="1549430237894" duration="6182000" />
+      <workItem from="1549454625621" duration="6874000" />
+      <workItem from="1549502557916" duration="8072000" />
+      <workItem from="1549600232240" duration="13026000" />
+      <workItem from="1549683290394" duration="13080000" />
+      <workItem from="1549764209340" duration="7354000" />
+      <workItem from="1549855570653" duration="9544000" />
+      <workItem from="1549875731874" duration="107000" />
+      <workItem from="1549938774368" duration="3201000" />
+      <workItem from="1549944002081" duration="14030000" />
+      <workItem from="1550032892835" duration="16737000" />
+      <workItem from="1550145382158" duration="3740000" />
+      <workItem from="1550294239025" duration="8712000" />
+      <workItem from="1550372744653" duration="3559000" />
+      <workItem from="1550546867653" duration="13665000" />
+      <workItem from="1550564486851" duration="18245000" />
+      <workItem from="1550631520336" duration="9260000" />
+      <workItem from="1550675379876" duration="446000" />
+      <workItem from="1550720087459" duration="10204000" />
+      <workItem from="1550736865307" duration="10101000" />
+      <workItem from="1550757328215" duration="599000" />
+      <workItem from="1550804241349" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129194000" />
+    <option name="totallyTimeSpent" value="310201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11327714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115384616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.01607717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.015021459" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21757771" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -300,155 +462,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/welcome.vue" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/newUser.vue" />
-    <entry file="file://$PROJECT_DIR$/nba_project/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/main.js" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/App.vue" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/assets/logo.png" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/assets/img/yourNBA.png" />
-    <entry file="file://$PROJECT_DIR$/平时使用的练手项目/new_vue.html" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/package.json" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/welcome.vue" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/main.js" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/newUser.vue" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/element-starter-master/src/App.vue" />
-    <entry file="file://$PROJECT_DIR$/平时使用的练手项目/index.html" />
-    <entry file="file://$PROJECT_DIR$/平时使用的练手项目/router_test.html" />
-    <entry file="file://$PROJECT_DIR$/front-end/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/foo.vue" />
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/bar.vue" />
-    <entry file="file://$PROJECT_DIR$/front-end/src/assets/jordan.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nba_project/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/welcome.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/平时使用的练手项目/try_formData_Post.html" />
-    <entry file="file://$PROJECT_DIR$/nba_project/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app4.js" />
     <entry file="file://$PROJECT_DIR$/平时使用的练手项目/javascript/002.js" />
-    <entry file="file://$PROJECT_DIR$/back-end/app3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app3.js" />
+    <entry file="file://$PROJECT_DIR$/back-end/app2.js" />
     <entry file="file://$PROJECT_DIR$/nba_project/nbaCrawler_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -482,55 +509,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/stopW.utf8">
+    <entry file="file://$PROJECT_DIR$/back-end/新建文本文档.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/Dict8.utf8">
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/welcome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/app5.js" />
+    <entry file="file://$PROJECT_DIR$/back-end/sync3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sync2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/arrayI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/dataBackUp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/createDaoPai3.js" />
+    <entry file="file://$PROJECT_DIR$/back-end/concatDiffWord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/testSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/concatArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/createDaoPai2.js" />
+    <entry file="file://$PROJECT_DIR$/back-end/nbaPicTextX_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back-end/nbaCrawler_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="756">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/新建文本文档.txt">
+    <entry file="file://$PROJECT_DIR$/back-end/showWordInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="81">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/Dict8.utf8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/linkDataBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/testJsonTitle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/stopW.utf8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="1568" column="3" lean-forward="false" selection-start-line="1568" selection-start-column="3" selection-end-line="1568" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back-end/stdTeamData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2241">
-          <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+        <state relative-caret-position="486">
+          <caret line="114" column="20" lean-forward="true" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/assets/jordan.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_test/e.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/bus.vue" />
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/go.vue" />
+    <entry file="file://$PROJECT_DIR$/front-end/src/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/bus.js" />
+    <entry file="file://$PROJECT_DIR$/front-end/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back-end/createDaoPai.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+        <state relative-caret-position="2646">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="89" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+          <folding>
+            <element signature="e#705#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/EventEmitter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back-end/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+        <state relative-caret-position="27">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_test/testNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
