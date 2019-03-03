@@ -6,6 +6,7 @@
          <div v-show="isLogined">
              <el-collapse v-model="activeNames" @change="handleChange" v-for="item in this.newsData" :key="item.id">
                  <el-collapse-item v-bind:title="item.title">
+                     <img src="../assets/allStar.jpg">
                      <p>{{item.content}}</p>
                  </el-collapse-item>
              </el-collapse>
@@ -26,7 +27,8 @@
                      coach:"沃顿"
                  },
                  newsData:[],
-                 activeNames: []
+                 activeNames: [],
+                 imgSrc:"../assets/title_images/lakers/1.jpg"
              }
         },
         mounted:function(){
@@ -43,10 +45,8 @@
                      url,
                  ).then((response) => {
                      //response是数据
-                     console.log(response);
                      //在这里修改视图
                      this.newsData=response.body;
-                     console.log(this.newsData);
                  },()=>{
                      alert("加载资讯信息异常！");
                  });

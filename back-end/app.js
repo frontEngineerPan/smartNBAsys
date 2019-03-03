@@ -31,6 +31,15 @@ var newUser= mongoose.Schema({
     user_id:String,
     password:String
 });
+var interestLabelF={
+        mate:"科比布莱恩特",
+        team:"火箭",
+        coach:"沃顿"
+}
+var interestLabelT=[];
+interestLabelT.push(interestLabelF.mate);
+interestLabelT.push(interestLabelF.team);
+interestLabelT.push(interestLabelF.coach);
 /*speak方法验证是否正确插入库*/
 newUser.methods.speak = function () {
     var greeting="insert False";
@@ -121,10 +130,11 @@ app.get('/displayDocs/:mate/:team/:coach', function(req, res) {
             wBase.push(R[teamStr[i]].mates[j]);
         }
     }
-    wordNum.mateNum = wBase.indexOf("科比布莱恩特");
+    //在这里获取兴趣标签
+    wordNum.mateNum = wBase.indexOf(interestLabelF.mate);
     //这里需要一个模糊优化算法
-    wordNum.teamNum = wBase.indexOf("火箭");
-    wordNum.coachNum = wBase.indexOf("沃顿");
+    wordNum.teamNum = wBase.indexOf(interestLabelF.team);
+    wordNum.coachNum = wBase.indexOf(interestLabelF.coach);
                //debug
                //console.log(DaoPaiSheet[wordNum.mateNum]);
                //求5个mate项
@@ -156,7 +166,7 @@ app.get('/displayDocs/:mate/:team/:coach', function(req, res) {
                        tmp_5.push(tfIdf_forJ[l]);
                    }
                    for(let m=0;m<jRefer.length;m++){
-                       if(tmp_5.indexOf(jRefer[m].docTfIdf)>0){
+                       if(tmp_5.indexOf(jRefer[m].docTfIdf)>=0){
                            mateDocsNum.push(jRefer[m].docNum);
                        }
                    }
@@ -204,7 +214,7 @@ app.get('/displayDocs/:mate/:team/:coach', function(req, res) {
             tmp_3.push(TeamJ_tfidf[l]);
         }
         for(let m=0;m<TeamJ_tfidf.length;m++){
-            if(tmp_3.indexOf(jTeamRefer[m].docTfIdf)>0){
+            if(tmp_3.indexOf(jTeamRefer[m].docTfIdf)>=0){
                 teamDocsNum.push(jTeamRefer[m].docNum);
             }
         }
@@ -243,14 +253,14 @@ app.get('/displayDocs/:mate/:team/:coach', function(req, res) {
                 tmp_2.push(coachJ_tfidf[l]);
             }
             for(let m=0;m<coachJ_tfidf.length;m++){
-                if(tmp_2.indexOf(jTeamRefer[m].docTfIdf)>0){
+                if(tmp_2.indexOf(jCoachRefer[m].docTfIdf)>=0){
                     coachDocsNum.push(jCoachRefer[m].docNum);
                 }
             }
         }
         coachResult=coachDocsNum;
     }else{
-        console.log("teamResult kong");
+        console.log("coachResult kong");
     }
         //以上是coach版本
     var resultK=[];
@@ -279,6 +289,165 @@ app.get('/displayDocs/:mate/:team/:coach', function(req, res) {
     setTimeout(function () {
         res.send(resultWithDocs);
     },3000);
+});
+/*模板signal
+app.get('/login/:name/:word', function(req, res) {
+        res.send({login: "failed"});
+});*/
+app.get('/getLabel', function(req, res) {
+    res.send(interestLabelT);
+});
+app.get('/updateAppData/:mate/:team/:coach', function(req, res) {
+    interestLabelF={
+        mate:decodeURI(req.params.mate),
+        team:decodeURI(req.params.team),
+        coach:decodeURI(req.params.coach)
+    };
+    console.log("现在开始重置兴趣标签");
+    interestLabelT=[];
+    interestLabelT.push(interestLabelF.mate);
+    interestLabelT.push(interestLabelF.team);
+    interestLabelT.push(interestLabelF.coach);
+    console.log(interestLabelT);
+    res.send("update interest Success!");
+});
+app.get('/downloadTotalWords', function(req, res) {
+    var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+    var wBase=[];
+    for (let i = 0;i < teamStr.length;i++) {
+        var obj_1={
+             value:R[teamStr[i]].teamName
+        };
+        var obj_2={
+            value:R[teamStr[i]].coach
+        };
+        wBase.push(obj_1);
+        wBase.push(obj_2);
+        for (let j = 0; j < R[teamStr[i]].mates.length; j++) {
+            var obj_3={
+                value:R[teamStr[i]].mates[j]
+            };
+            wBase.push(obj_3);
+        }
+    }
+    res.send(wBase);
+});
+app.get('/getWordArray/:num', function(req, res) {
+    var wNum=parseInt(req.params.num);
+//设定结果num组
+    var wDocsNum=[];
+//出现在哪些文档里面
+    var wDocs=[];
+//方便排序结果的查询
+    var jWRefer=[];
+//最终res的结果
+    var resultWithDocsW=[];
+    //wJ_tfidf记录w词在j文档里面的tfidf值
+    var wJ_tfidf=[];
+//假如该组的所有倒排检索都为空，输出空
+//否则攫取倒排结果
+    if(DaoPaiSheet[wNum].ariseDocs.length>0){
+//出现在哪些文档里面
+        wDocs=DaoPaiSheet[wNum].ariseDocs;
+        for(let j=0;j<wDocs.length;j++){
+            var obj_j={};//中间值，方便数值排序
+            //wJ_tfidf记录w词在j文档里面的tfidf值
+            wJ_tfidf.push(DaoPaiSheet[wNum].tfidf[wDocs[j]]);
+            obj_j={
+                docNum:wDocs[j],//w词出现在哪个文档
+                //tfidf值
+                docTfIdf:DaoPaiSheet[wNum].tfidf[wDocs[j]]
+            };
+            //push
+            jWRefer.push(obj_j);
+        }
+        wJ_tfidf.sort();
+        wJ_tfidf.reverse();
+        for(let m=0;m<wJ_tfidf.length;m++){
+            if(wJ_tfidf.indexOf(jWRefer[m].docTfIdf)>=0){
+                wDocsNum.push(jWRefer[m].docNum);
+            }
+        }
+    }else{
+        console.log("w Word not found!");
+    }
+    //传输文档内容和编号
+    mongoose.connect('mongodb://localhost/smartNBAsys');
+    var db = mongoose.connection;
+    //数据库连接错误处理
+    db.on('error', console.error.bind(console, 'connection error:'));
+    db.once('open', function() {
+        // we're connected!
+        console.log("database for docs now connected!");
+    });
+    for(let n=0;n<wDocsNum.length;n++){
+        nbaPicTextX.find({nba_id:wDocsNum[n]}, 'nba_id title content', function (err, result) {
+            var obj={
+                position:n+1,
+                id:result[0].nba_id,
+                title:result[0].title,
+                content:result[0].content
+            }
+            resultWithDocsW.push(obj);
+        });
+    }
+    setTimeout(function () {
+        res.send(resultWithDocsW);
+    },3000);
+});
+app.get('/getMateData',function (req,res) {
+    var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+    var wBase=[];
+    for (let i = 0;i < teamStr.length;i++) {
+        for (let j = 0; j < R[teamStr[i]].mates.length; j++) {
+            var obj_3={
+                value:R[teamStr[i]].mates[j]
+            };
+            wBase.push(obj_3);
+        }
+    }
+    res.send(wBase);
+});
+app.get('/getTeamData',function (req,res) {
+    var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+    var wBase=[];
+    for (let i = 0;i < teamStr.length;i++) {
+        var obj_2={
+            value:R[teamStr[i]].teamName
+        };
+        wBase.push(obj_2);
+    }
+    res.send(wBase);
+});
+app.get('/getCoachData',function (req,res) {
+    var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+    var wBase=[];
+    for (let i = 0;i < teamStr.length;i++) {
+        var obj_3={
+            value:R[teamStr[i]].coach
+        };
+        wBase.push(obj_3);
+    }
+    res.send(wBase);
+});
+app.get('/postMateData/:postMate',function(req,res){
+    interestLabelF.mate=decodeURI(req.params.postMate);
+    console.log(interestLabelF.mate);
+    res.send({"success":interestLabelF.mate});
+});
+app.get('/postTeamData/:postTeam',function(req,res){
+    interestLabelF.team=decodeURI(req.params.postTeam);
+    console.log(interestLabelF.team);
+    res.send({"success":interestLabelF.team});
+});
+app.get('/postCoachData/:postCoach',function(req,res){
+    interestLabelF.coach=decodeURI(req.params.postCoach);
+    console.log(interestLabelF.coach);
+    interestLabelT=[];
+    interestLabelT.push(interestLabelF.mate);
+    interestLabelT.push(interestLabelF.team);
+    interestLabelT.push(interestLabelF.coach);
+    res.send({"success":interestLabelF.coach});
 });
 /*****************以上为路由***********************/
 app.listen(3000);

@@ -4,8 +4,9 @@
       <el-menu-item index="1"><router-link to="/welcome">欢迎</router-link></el-menu-item>
       <el-menu-item index="2"><router-link to="/login">登录</router-link></el-menu-item>
       <el-menu-item index="3"><router-link to="/register">注册</router-link></el-menu-item>
-      <el-menu-item index="4"><router-link to="/infoNews">资讯</router-link></el-menu-item>
-      <el-menu-item index="5">myZone</el-menu-item>
+      <el-menu-item index="4"><router-link to="/infoNews">资讯小窝</router-link></el-menu-item>
+      <el-menu-item index="5"><router-link to="/myZone">myZone</router-link></el-menu-item>
+      <el-menu-item index="6"><router-link to="/myTest">探索</router-link></el-menu-item>
     </el-menu>
        <router-view id="router_view_1"></router-view>
   </div>
