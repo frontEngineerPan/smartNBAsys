@@ -1,11 +1,20 @@
 const express = require('express');
 const app = express();
-var mongoose = require('mongoose');
-var fs = require("fs");
-var process=require("process");
+const mongoose = require('mongoose');
+const fs = require("fs");
+const process=require("process");
 const R=require('./stdTeamData.js');
 const DaoPaiSheet = require ('./createDaoPai.js');
+const jieba = require ('nodejieba');
 const nbaPicTextX = require('./nbaPicTextX_model.js');
+//装载jieba分词
+jieba.load({
+    dict: jieba.DEFAULT_DICT,
+    hmmDict: jieba.DEFAULT_HMM_DICT,
+    userDict: './Dict8.utf8',
+    idfDict: jieba.DEFAULT_IDF_DICT,
+    stopWordDict: jieba.DEFAULT_STOP_WORD_DICT,
+});
 //process.on保证了进程遇到错误不会突然退出
 process.on('uncaughtException', function (err) {
     //打印出错误
@@ -25,6 +34,41 @@ db.once('open', function() {
 //结束连接数据库
 //设置跨域访问
 //这一般是后端程序员做的事情
+var nIntervId=[];
+//用于打印时间值的函数
+function changeTime(num) {
+    //重定义
+    nIntervId[num] = setInterval(function () {
+        timeRecord[num].accumTime++;
+    }, 1000);
+}
+//用于结束结束时间值的函数
+function endChange(num){
+    clearInterval(nIntervId[num]);
+    //构建nba标准词库
+    //找词找得我好辛苦
+    var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+    var wBase=[];
+    for (let i = 0;i < teamStr.length;i++) {
+        wBase.push(R[teamStr[i]].teamName);
+        wBase.push(R[teamStr[i]].coach);
+        for (let j = 0; j < R[teamStr[i]].mates.length; j++) {
+            wBase.push(R[teamStr[i]].mates[j]);
+        }
+    }
+    var AccumulativeTime=parseInt(timeRecord[num].accumTime/60);
+    timeRecord[num].accumTime=0;
+    var CorrespondingWords=wBase[timeRecord[num].wNum];
+    for(let i=0;i<interestPool.length;i++){
+        if(interestPool[i].secondLabel===CorrespondingWords){
+            interestPool[i].account=interestPool[i].account+AccumulativeTime;
+        }
+    }
+}
+//timeRecord用于记录时间，格式【词在wBase里面的位置，词的总时间，若词的选项卡被关闭，重置时间点】
+var timeRecord=[];
+/*interestPool兴趣池*/
+var interestPool=[];
 /*newUser包含用户的注册信息*/
 var newUser= mongoose.Schema({
     /*以后都是userID*/
@@ -448,6 +492,366 @@ app.get('/postCoachData/:postCoach',function(req,res){
     interestLabelT.push(interestLabelF.team);
     interestLabelT.push(interestLabelF.coach);
     res.send({"success":interestLabelF.coach});
+});
+app.get('/registerInterest/:newInterest',function(req,res){
+    var isKey=false;
+    var keyNum=null;
+    if(interestPool.length>0) {
+        for(let i=0;i<interestPool.length;i++){
+            if(interestPool[i].secondLable===decodeURI(req.params.newInterest)){
+                isKey=true;
+                keyNum=i;
+            }
+        }
+    }
+    if(!isKey&&!keyNum){
+        var obj={
+            secondLabel:key,
+            account:1
+        };
+        interestPool.push(obj);
+    }else{
+        interestPool[keyNum].account++;
+    }
+    res.send(interestPool);
+});
+app.get('/recognizeInterest/:wNum',function(req,res){
+    //为了方便记录时间，使用tmpTime做输出
+    var tmpTimeNum=0;
+    //连接数据库取文本
+    mongoose.connect('mongodb://localhost/smartNBAsys');
+    var db = mongoose.connection;
+    //数据库连接错误处理
+    db.on('error', console.error.bind(console, 'connection error:'));
+    db.once('open', function() {
+        // we're connected!
+        console.log("database for docs now connected!");
+    });
+    nbaPicTextX.find({nba_id:req.params.wNum}, 'content', function (err, result) {
+        //定义快排
+        var quickSort = function(arr) {
+            if (arr.length <= 1) { return arr; }
+            var pivotIndex = Math.floor(arr.length / 2);
+            var pivot = arr.splice(pivotIndex, 1)[0];
+            var left = [];
+            var right = [];
+            for (var i = 0; i < arr.length; i++){
+                if (arr[i] < pivot) {
+                    left.push(arr[i]);
+                } else {
+                    right.push(arr[i]);
+                }
+            }
+            return quickSort(left).concat([pivot], quickSort(right));
+        };
+        //构建nba标准词库
+        var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+        var wBase=[];
+        for (let i = 0;i < teamStr.length;i++) {
+            wBase.push(R[teamStr[i]].teamName);
+            wBase.push(R[teamStr[i]].coach);
+            for (let j = 0; j < R[teamStr[i]].mates.length; j++) {
+                wBase.push(R[teamStr[i]].mates[j]);
+            }
+        }
+        //docs念做集
+        var cp_result=result[0].content.replace(/[\'\"\\\/\b\f\n\r\t]/g, '');
+        var resultDocs=jieba.cut(result);
+        //统计词频
+        //reducer是好东西,自动升序
+        var countedNames = resultDocs.reduce(function (allNames, name) {
+            if (name in allNames) {
+                allNames[name]++;
+            }
+            else {
+                allNames[name] = 1;
+            }
+            return allNames;
+        }, {});
+        //设置一个数组用于排序
+        var tmp=[];
+        //使用tmpforSort来存储排序后的数组
+        var tmpforSort=[];
+        for(let key in countedNames){
+            tmp.push(parseInt(countedNames[key]));
+        }
+        //使用tmpforSort来存储排序后的数组
+        //这里有错误，它将其按字符串进行排序了
+        var tmpforSort=quickSort(tmp);
+        tmpforSort.reverse();
+        //tmpForLabel负责取次标签
+        var tmpForLabel=0;
+        while(tmpForLabel!=10000){
+            for(let key in countedNames) {
+                //符合条件的才注册//找到的话就在兴趣池里面注册
+                //严格规约次级标签
+                if (tmpforSort[tmpForLabel]===countedNames[key]&&wBase.indexOf(key)>=0&&key!=interestLabelF.mate&&key!=interestLabelF.team&&key!=interestLabelF.coach){
+                    //计算该词在wBase里面的位置
+                    tmpTimeNum=wBase.indexOf(key);
+                    var isKey=false;
+                    var keyNum=null;
+                    //如果该次标签已经在之前的兴趣池里面
+                    if(interestPool.length>0) {
+                        for(let i=0;i<interestPool.length;i++){
+                            if(interestPool[i].secondLabel===key){
+                                isKey=true;
+                                keyNum=i;
+                            }
+                        }
+                    }
+                    //如果该次标签已经在之前的兴趣池里面
+                    if(!isKey&&keyNum===null){
+                        var obj={
+                            secondLabel:key,
+                            account:parseInt(1)
+                        };
+                        interestPool.push(obj);
+                        //否则新进行注册
+                    }else{
+                        interestPool[keyNum].account++;
+                    }
+                    tmpForLabel=9999;
+                    break;
+                }
+            }
+            tmpForLabel++;
+        }
+        //注册time并开始计算
+        var obj_c={
+            wNum:tmpTimeNum,
+            accumTime:0
+        }
+        timeRecord.push(obj_c);
+        //开始计时
+        //numForRecord是wBase某词word在timeRecord中的位置
+        let numForRecord;
+        if(timeRecord.length>0){
+            for(let i=0;i<timeRecord.length;i++){
+                //tmpTimeNum是词在wBase当中的位置
+                if(timeRecord[i].wNum===tmpTimeNum){
+                    numForRecord=i;
+                }
+            }
+        }
+        changeTime(numForRecord);
+        //注意interestPool是关于当前次标签的兴趣池
+        //res只能传输json格式的数据
+        setTimeout(function(){
+            res.send(interestPool);
+        },1000);
+    });
+});
+app.get('/endTimeAccount/:wNum',function(req,res){
+    //为了方便记录时间，使用tmpTime做输出
+    var tmpTimeNum=0;
+    //连接数据库取文本
+    mongoose.connect('mongodb://localhost/smartNBAsys');
+    var db = mongoose.connection;
+    //数据库连接错误处理
+    db.on('error', console.error.bind(console, 'connection error:'));
+    db.once('open', function() {
+        // we're connected!
+        console.log("database for docs now connected!just for end time!");
+    });
+    nbaPicTextX.find({nba_id:req.params.wNum}, 'content', function (err, result) {
+        //定义快排
+        var quickSort = function(arr) {
+            if (arr.length <= 1) { return arr; }
+            var pivotIndex = Math.floor(arr.length / 2);
+            var pivot = arr.splice(pivotIndex, 1)[0];
+            var left = [];
+            var right = [];
+            for (var i = 0; i < arr.length; i++){
+                if (arr[i] < pivot) {
+                    left.push(arr[i]);
+                } else {
+                    right.push(arr[i]);
+                }
+            }
+            return quickSort(left).concat([pivot], quickSort(right));
+        };
+        //构建nba标准词库
+        var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+        var wBase=[];
+        for (let i = 0;i < teamStr.length;i++) {
+            wBase.push(R[teamStr[i]].teamName);
+            wBase.push(R[teamStr[i]].coach);
+            for (let j = 0; j < R[teamStr[i]].mates.length; j++) {
+                wBase.push(R[teamStr[i]].mates[j]);
+            }
+        }
+        //docs念做集
+        var cp_result=result[0].content.replace(/[\'\"\\\/\b\f\n\r\t]/g, '');
+        var resultDocs=jieba.cut(result);
+        //统计词频
+        //reducer是好东西,自动升序
+        var countedNames = resultDocs.reduce(function (allNames, name) {
+            if (name in allNames) {
+                allNames[name]++;
+            }
+            else {
+                allNames[name] = 1;
+            }
+            return allNames;
+        }, {});
+        //设置一个数组用于排序
+        var tmp=[];
+        //使用tmpforSort来存储排序后的数组
+        var tmpforSort=[];
+        for(let key in countedNames){
+            tmp.push(parseInt(countedNames[key]));
+        }
+        //使用tmpforSort来存储排序后的数组
+        //这里有错误，它将其按字符串进行排序了
+        var tmpforSort=quickSort(tmp);
+        tmpforSort.reverse();
+        //tmpForLabel负责取次标签
+        var tmpForLabel=0;
+        while(tmpForLabel!=10000){
+            for(let key in countedNames) {
+                //符合条件的才注册//找到的话就在兴趣池里面注册
+                //严格规约次级标签
+                if (tmpforSort[tmpForLabel]===countedNames[key]&&wBase.indexOf(key)>=0&&key!=interestLabelF.mate&&key!=interestLabelF.team&&key!=interestLabelF.coach){
+                    //计算该词在wBase里面的位置
+                    tmpTimeNum=wBase.indexOf(key);
+                    tmpForLabel=9999;
+                    break;
+                }
+            }
+            tmpForLabel++;
+        }
+        //numForRecord是wBase某词word在timeRecord中的位置
+        let numForRecord;
+        if(timeRecord.length>0){
+            for(let i=0;i<timeRecord.length;i++){
+                //tmpTimeNum是词在wBase当中的位置
+                if(timeRecord[i].wNum===tmpTimeNum){
+                    numForRecord=i;
+                }
+            }
+        }
+        endChange(numForRecord);
+        //注意interestPool是关于当前次标签的兴趣池
+        //res只能传输json格式的数据
+        setTimeout(function(){
+            res.send(interestPool);
+        },1000);
+    });
+});
+app.get('/getBySecondaryLabel',function(req,res){
+    //sortPool用于排序
+    let sortPool=[];
+    //wordPool记录了要输出的词组
+    let wordPool=[];
+    //numFromWBase记录了要输出的词组在wbase中的编号
+    let numFromWBase=[];
+    //最终用于输出的结果
+    let resultWithDocsW=[];
+    if(interestPool.length>0){
+       for(let i=0;i<interestPool.length;i++){
+           sortPool.push(interestPool[i].account);
+       }
+        sortPool.sort();
+        sortPool.reverse();
+        if(interestPool.length<=5){
+            for(let i=0;i<interestPool.length;i++){
+                wordPool.push(interestPool[i].secondLabel);
+            }
+        }else{
+            for(let i=0;i<5;i++){
+                wordPool.push(interestPool[i].secondLabel);
+            }
+        }
+        //构建nba标准词库
+        //找词找得我好辛苦
+        var teamStr = ["bucksNBA", "pelicanNBA", "warriorsNBA", "clippersNBA", "kingNBA", "raptorsNBA", "lakersNBA", "hornetsNBA", "wizardsNBA", "thunderNBA", "celticsNBA", "spursNBA", "blazersNBA", "timberwolvesNBA", "netsNBA", "mavericksNBA", "sixersNBA", "nuggetsNBA", "rocketNBA", "jazzNBA", "nicksNBA", "pacersNBA", "bullNBA", "pistonNBA", "grizzlieNBA", "knightNBA", "heatNBA", "magicNBA", "sunNBA", "eagleNBA"];
+        var wBase=[];
+        for (let i = 0;i < teamStr.length;i++) {
+            wBase.push(R[teamStr[i]].teamName);
+            wBase.push(R[teamStr[i]].coach);
+            for (let j = 0; j < R[teamStr[i]].mates.length; j++) {
+                wBase.push(R[teamStr[i]].mates[j]);
+            }
+        }
+        //寻找在在wbase中的编号
+        for(let i=0;i<wBase.length;i++){
+            if(wordPool.indexOf(wBase[i])>=0){
+                numFromWBase.push(i);
+            }
+        }
+        //到倒排索引表里面去取结果
+        for(let i=0;i<numFromWBase.length;i++){
+            if(DaoPaiSheet[numFromWBase[i]].ariseDocs.length>0){
+                //出现在哪些文档里面
+                let wDocs=DaoPaiSheet[numFromWBase[i]].ariseDocs;
+                //wJ_tfidf记录了i词在关于它的文档里面的所有tfidf值
+                let wJ_tfidf=[];
+                //jWRefer记录了i词在哪些文档里面，以及背后的tfidf值，方便排序后的查询
+                let jWRefer=[];
+                //wDocsNum是tfidf排序后的结果换算为映射后的有序的文档编号
+                let wDocsNum=[];
+                //记录i词在j文档里面的tfidf值
+                for(let j=0;j<wDocs.length;j++){
+                    wJ_tfidf.push(DaoPaiSheet[numFromWBase[i]].tfidf[wDocs[j]]);
+                    let obj_j={
+                        //i词出现在哪个文档
+                        docNum:wDocs[j],
+                        //i词在该文档的tfidf值
+                        docTfIdf:DaoPaiSheet[numFromWBase[i]].tfidf[wDocs[j]]
+                    };
+                    jWRefer.push(obj_j);
+                }
+                wJ_tfidf.sort();
+                wJ_tfidf.reverse();
+                //将tfidf排序后的结果换算为映射后的有序的文档编号 wDocsNum
+                for(let m=0;m<wJ_tfidf.length;m++){
+                    if(wJ_tfidf.indexOf(jWRefer[m].docTfIdf)>=0){
+                        wDocsNum.push(jWRefer[m].docNum);
+                    }
+                }
+                //根据wDocsNum编号取数据库内容
+                //连接数据库
+                mongoose.connect('mongodb://localhost/smartNBAsys');
+                var db = mongoose.connection;
+                //数据库连接错误处理
+                db.on('error', console.error.bind(console, 'connection error:'));
+                db.once('open', function() {
+                    // we're connected!
+                    console.log("database for guessDocs now connected!");
+                });
+                if(wDocsNum.length<=2){
+                    for(let n=0;n<wDocsNum.length;n++){
+                        nbaPicTextX.find({nba_id:wDocsNum[n]}, 'nba_id title content', function (err, result) {
+                            var obj={
+                                position:n+1,
+                                id:result[0].nba_id,
+                                title:result[0].title,
+                                content:result[0].content
+                            }
+                            resultWithDocsW.push(obj);
+                        });
+                    }
+                }else{
+                    for(let n=0;n<2;n++){
+                        nbaPicTextX.find({nba_id:wDocsNum[n]}, 'nba_id title content', function (err, result) {
+                            var obj={
+                                position:n+1,
+                                id:result[0].nba_id,
+                                title:result[0].title,
+                                content:result[0].content
+                            }
+                            resultWithDocsW.push(obj);
+                        });
+                    }
+                }
+            }
+        }
+        setTimeout(function () {
+            res.send(resultWithDocsW);
+        },3000);
+    }else{
+        res.send({"failed":"no interest in Pool"});
+    }
 });
 /*****************以上为路由***********************/
 app.listen(3000);

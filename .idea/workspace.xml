@@ -2,199 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597b7fc1-8a52-45b3-b164-ecc2848d6c5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/allStar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/76人/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/76人/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/76人/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/公牛/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/公牛/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/公牛/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/凯尔特人/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/凯尔特人/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/凯尔特人/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/勇士/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/勇士/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/勇士/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/国王/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/国王/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/国王/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/太阳/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/太阳/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/太阳/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/奇才/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/奇才/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/奇才/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/尼克斯/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/尼克斯/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/尼克斯/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/开拓者/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/开拓者/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/开拓者/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/快船/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/快船/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/快船/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/掘金/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/掘金/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/掘金/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/森林狼/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/森林狼/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/森林狼/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/步行者/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/步行者/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/步行者/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/活塞/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/活塞/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/活塞/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/湖人/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/湖人/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/湖人/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/火箭/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/火箭/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/火箭/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/灰熊/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/灰熊/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/灰熊/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/热火/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/热火/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/热火/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/爵士/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/爵士/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/爵士/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/独行侠/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/独行侠/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/独行侠/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/猛龙/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/猛龙/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/猛龙/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/篮网/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/篮网/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/篮网/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/老鹰/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/老鹰/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/老鹰/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/雄鹿/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/雄鹿/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/雄鹿/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/雷霆/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/雷霆/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/雷霆/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/马刺/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/马刺/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/马刺/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/骑士/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/骑士/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/骑士/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/魔术/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/魔术/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/魔术/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/鹈鹕/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/鹈鹕/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/鹈鹕/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/黄蜂/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/黄蜂/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/title_images/黄蜂/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/76人/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/76人/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/76人/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/公牛/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/公牛/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/公牛/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/凯尔特人/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/凯尔特人/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/凯尔特人/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/勇士/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/勇士/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/勇士/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/国王/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/国王/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/国王/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/太阳/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/太阳/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/太阳/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/奇才/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/奇才/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/奇才/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/尼克斯/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/尼克斯/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/尼克斯/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/开拓者/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/开拓者/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/开拓者/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/快船/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/快船/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/快船/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/掘金/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/掘金/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/掘金/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/森林狼/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/森林狼/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/森林狼/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/步行者/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/步行者/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/步行者/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/活塞/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/活塞/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/活塞/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/湖人/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/湖人/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/湖人/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/火箭/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/火箭/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/火箭/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/灰熊/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/灰熊/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/灰熊/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/热火/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/热火/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/热火/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/爵士/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/爵士/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/爵士/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/独行侠/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/独行侠/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/独行侠/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/猛龙/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/猛龙/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/猛龙/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/篮网/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/篮网/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/篮网/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/老鹰/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/老鹰/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/老鹰/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/雄鹿/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/雄鹿/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/雄鹿/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/雷霆/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/雷霆/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/雷霆/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/马刺/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/马刺/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/马刺/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/骑士/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/骑士/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/骑士/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/魔术/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/魔术/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/魔术/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/鹈鹕/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/鹈鹕/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/鹈鹕/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/黄蜂/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/黄蜂/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/title_images/黄蜂/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/party.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/testAsync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/calc1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/dt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/component/myZone.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/balloons/img/glitter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/glitter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/assets/glitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/src/img/glitter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/back-end/timeInterval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/balloons/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/balloons/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/quickSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_test/zhongwen.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/app.js" afterPath="$PROJECT_DIR$/back-end/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/sync.js" afterPath="$PROJECT_DIR$/back-end/sync.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/App.vue" afterPath="$PROJECT_DIR$/front-end/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/infoNews.vue" afterPath="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/register.vue" afterPath="$PROJECT_DIR$/front-end/src/component/register.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/myTest.vue" afterPath="$PROJECT_DIR$/front-end/src/component/myTest.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/component/welcome.vue" afterPath="$PROJECT_DIR$/front-end/src/component/welcome.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/index.html" afterPath="$PROJECT_DIR$/front-end/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-end/src/routes.js" afterPath="$PROJECT_DIR$/front-end/src/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -208,43 +32,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/component/register.vue">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="110" column="43" lean-forward="false" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+            <state relative-caret-position="567">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding>
+                <element signature="e#281#814#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="infoNews.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
+      <file leaf-file-name="glitter.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/assets/glitter.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/component/welcome.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+            <state relative-caret-position="81">
+              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/app.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_test/balloons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="309" column="46" lean-forward="true" selection-start-line="309" selection-start-column="46" selection-end-line="309" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="283">
+              <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="45" />
+              <folding>
+                <element signature="e#596#1129#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dt.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo_test/dt.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
+      <file leaf-file-name="glitter.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_test/balloons/img/glitter.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -255,6 +97,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -282,6 +125,12 @@
       <find>interestLabel</find>
       <find>;</find>
       <find>value</find>
+      <find>set</find>
+      <find>interestPool</find>
+      <find>倒排</find>
+      <find>wNum</find>
+      <find>body</find>
+      <find>glitter.jpg</find>
     </findStrings>
     <replaceStrings>
       <replace>register</replace>
@@ -299,16 +148,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/back-end/app2.js" />
-        <option value="$PROJECT_DIR$/平时使用的练手项目/try_formData_Post.html" />
-        <option value="$PROJECT_DIR$/back-end/app4.js" />
-        <option value="$PROJECT_DIR$/back-end/app5.js" />
-        <option value="$PROJECT_DIR$/平时使用的练手项目/javascript/002.js" />
         <option value="$PROJECT_DIR$/back-end/copyStd.js" />
         <option value="$PROJECT_DIR$/back-end/新建文本文档.txt" />
         <option value="$PROJECT_DIR$/back-end/nbaCrawler_1.js" />
         <option value="$PROJECT_DIR$/back-end/package.json" />
-        <option value="$PROJECT_DIR$/back-end/sync.js" />
         <option value="$PROJECT_DIR$/sync2.js" />
         <option value="$PROJECT_DIR$/back-end/sync3.js" />
         <option value="$PROJECT_DIR$/back-end/createDaoPai3.js" />
@@ -321,7 +164,6 @@
         <option value="$PROJECT_DIR$/back-end/Dict8.utf8" />
         <option value="$PROJECT_DIR$/back-end/nbaPicTextX_model.js" />
         <option value="$PROJECT_DIR$/back-end/linkDataBase.js" />
-        <option value="$PROJECT_DIR$/back-end/createDaoPai.js" />
         <option value="$PROJECT_DIR$/back-end/showWordInfo.js" />
         <option value="$PROJECT_DIR$/back-end/testJsonTitle.js" />
         <option value="$PROJECT_DIR$/demo_test/index.html" />
@@ -338,18 +180,25 @@
         <option value="$PROJECT_DIR$/demo_test/testNode.js" />
         <option value="$PROJECT_DIR$/front-end/src/component/myZone.vue" />
         <option value="$PROJECT_DIR$/back-end/stdTeamData.js" />
-        <option value="$PROJECT_DIR$/front-end/src/component/welcome.vue" />
         <option value="$PROJECT_DIR$/front-end/src/routes.js" />
-        <option value="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
-        <option value="$PROJECT_DIR$/front-end/src/component/myTest.vue" />
         <option value="$PROJECT_DIR$/demo_test/calc1.js" />
         <option value="$PROJECT_DIR$/back-end/party.js" />
-        <option value="$PROJECT_DIR$/front-end/src/App.vue" />
-        <option value="$PROJECT_DIR$/front-end/src/index.html" />
         <option value="$PROJECT_DIR$/back-end/testAsync.js" />
         <option value="$PROJECT_DIR$/front-end/src/component/register.vue" />
-        <option value="$PROJECT_DIR$/back-end/app.js" />
         <option value="$PROJECT_DIR$/demo_test/dt.html" />
+        <option value="$PROJECT_DIR$/demo_test/zhongwen.js" />
+        <option value="$PROJECT_DIR$/front-end/src/component/myTest.vue" />
+        <option value="$PROJECT_DIR$/back-end/createDaoPai.js" />
+        <option value="$PROJECT_DIR$/demo_test/quickSort.js" />
+        <option value="$PROJECT_DIR$/back-end/timeInterval.js" />
+        <option value="$PROJECT_DIR$/back-end/sync.js" />
+        <option value="$PROJECT_DIR$/front-end/src/component/infoNews.vue" />
+        <option value="$PROJECT_DIR$/back-end/app.js" />
+        <option value="$PROJECT_DIR$/demo_test/balloons/css/style.css" />
+        <option value="$PROJECT_DIR$/demo_test/balloons/index.html" />
+        <option value="$PROJECT_DIR$/front-end/src/index.html" />
+        <option value="$PROJECT_DIR$/front-end/src/component/welcome.vue" />
+        <option value="$PROJECT_DIR$/front-end/src/App.vue" />
       </list>
     </option>
   </component>
@@ -376,11 +225,11 @@
     <dismissed value="$PROJECT_DIR$/back-end/package.json" />
     <dismissed value="$PROJECT_DIR$/nba_project/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="16" />
-    <option name="y" value="18" />
-    <option name="width" value="974" />
-    <option name="height" value="1067" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="821" />
+    <option name="y" value="51" />
+    <option name="width" value="999" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -400,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,17 +257,11 @@
               <item name="smartNBAsys" type="b2602c69:ProjectViewProjectNode" />
               <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="smartNBAsys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartNBAsys" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,19 +273,20 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src\assets" />
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src" />
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\demo_test\balloons\img" />
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys" />
+      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\back-end\node_modules\_nodejieba@2.3.0@nodejieba\test\testdata" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src\component" />
       <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src" />
       <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\front-end\src\assets" />
-      <recent name="C:\Users\Shinelon\Documents\smartNBAsys" />
-      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\back-end\node_modules\_nodejieba@2.3.0@nodejieba\test\testdata" />
-      <recent name="C:\Users\Shinelon\Documents\smartNBAsys\back-end" />
-      <recent name="C:\Users\Shinelon\Documents\HBuilderProjects\back-end" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,26 +301,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.dt.html">
-    <configuration name="calc1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="calc1.js" working-dir="$PROJECT_DIR$/demo_test" />
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/back-end" />
     <configuration name="dt.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/smartNBAsys/demo_test/dt.html" />
-    <configuration name="e.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="e.js" working-dir="$PROJECT_DIR$/demo_test" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/smartNBAsys/demo_test/index.html" />
-    <configuration name="party.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="party.js" working-dir="$PROJECT_DIR$/back-end" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/smartNBAsys/demo_test/balloons/index.html" />
+    <configuration name="quickSort.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="quickSort.js" working-dir="$PROJECT_DIR$/demo_test" />
+    <configuration name="sync.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sync.js" working-dir="$PROJECT_DIR$/back-end" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.e.js" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.calc1.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.party.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dt.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dt.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.quickSort.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.sync.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dt.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.party.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.calc1.js" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.e.js" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.sync.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.quickSort.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dt.html" />
       </list>
     </recent_temporary>
   </component>
@@ -544,22 +389,30 @@
       <workItem from="1551417135856" duration="4683000" />
       <workItem from="1551427798754" duration="3830000" />
       <workItem from="1551439071723" duration="10697000" />
-      <workItem from="1551588250854" duration="2946000" />
+      <workItem from="1551588250854" duration="3530000" />
+      <workItem from="1551885434237" duration="54000" />
+      <workItem from="1552029255654" duration="185000" />
+      <workItem from="1552051319777" duration="5926000" />
+      <workItem from="1552108363088" duration="20185000" />
+      <workItem from="1552197182219" duration="19742000" />
+      <workItem from="1552285531968" duration="12945000" />
+      <workItem from="1552366596081" duration="28919000" />
+      <workItem from="1552449158487" duration="9467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383459000" />
+    <option name="totallyTimeSpent" value="481466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="821" y="51" width="999" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12539515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17689906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2972103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2864807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21757771" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -587,54 +440,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/back-end/copyStd.js" />
-    <entry file="file://$PROJECT_DIR$/nba_project/stdTeamData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/node_modules/_nodejieba@2.3.0@nodejieba/test/testdata/userdict.utf8">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/node_modules/_nodejieba@2.3.0@nodejieba/test/testdata/Dict8.utf8">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/新建文本文档.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/app5.js" />
-    <entry file="file://$PROJECT_DIR$/back-end/sync3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sync2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/sync.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -682,13 +491,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back-end/createDaoPai2.js" />
-    <entry file="file://$PROJECT_DIR$/back-end/nbaPicTextX_model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/nbaCrawler_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -774,24 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/createDaoPai.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/stdTeamData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3267">
           <caret line="121" column="15" lean-forward="false" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/welcome.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -806,13 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -851,55 +632,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/demo_test/dt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/myTest.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="88" column="19" lean-forward="true" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/component/register.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
+        <state relative-caret-position="0">
           <caret line="110" column="43" lean-forward="false" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_test/zhongwen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="42" column="70" lean-forward="false" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/myTest.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
+    <entry file="file://$PROJECT_DIR$/back-end/nbaPicTextX_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+        <state relative-caret-position="162">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/timeInterval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_test/balloons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back-end/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="309" column="46" lean-forward="true" selection-start-line="309" selection-start-column="46" selection-end-line="309" selection-end-column="46" />
+        <state relative-caret-position="-432">
+          <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_test/dt.html">
+    <entry file="file://$PROJECT_DIR$/demo_test/quickSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/createDaoPai.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/infoNews.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="154" column="29" lean-forward="true" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_test/balloons/img/glitter.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_test/balloons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="e#596#1129#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#281#814#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/assets/glitter.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/component/welcome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
           <folding />
         </state>
       </provider>

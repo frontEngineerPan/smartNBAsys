@@ -1,15 +1,10 @@
-const Step = require('step');
-Step(
-    function readSelf() {
-        var a="nihao";
-        return a;
-    },
-    function capitalize(err, text) {
-        if (err) throw err;
-        return text.toUpperCase();
-    },
-    function showIt(err, newText) {
-        if (err) throw err;
-        console.log(newText);
-    }
-);
+let a=1;
+let b=1;
+if(a!=1){
+   a=2;
+}else{
+    b=2;
+   a=3;
+}
+console.log(a);
+console.log(b);

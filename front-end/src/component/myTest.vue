@@ -69,6 +69,14 @@
                         console.log(response.body);
                         this.NewData=response.body;
                         this.isIndex=true;
+                        //这里标志着检索成功
+                        //开始注册兴趣池
+                        var url = 'http://localhost:3000/registerInterest/' + encodeURI(this.state1);
+                        this.$http.get(
+                            url,
+                        ).then((response) => {
+                            console.log("在兴趣池注册成功！");
+                        });
                     }, () => {
                         alert("服务器异常！");
                     });
